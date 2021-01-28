@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="box" id="inputBox">
+        <h1 id="title">BARBECUE SIMULATOR</h1>
+        <h2 id="description">Welcome to the barbecue simulator! Please insert the information below and it will return what you need for your barbecue</h2>
+        <label for="adults">Number of adults:</label>
+        <input type="number" id="adults" placeholder="  Adults">
+        <label for="children">Number of children:</label>
+        <input type="number" id="children" placeholder="  Children">
+        <label>Barbacue duration (hours):</label>
+        <input type="number" id="duration" placeholder="  Duration">
+        <button id="botao" onclick="printList()">Generate</button>
+    
+        <div id="outputBox">
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
